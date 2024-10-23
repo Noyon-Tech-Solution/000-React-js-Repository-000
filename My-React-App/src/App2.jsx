@@ -11,6 +11,8 @@ import React from "react";
 // import FetchDataUseEffect from "./Component2/Hooks/FetchingData_useEffect/FetchDataUseEffect";
 // import FetchingData_with_useEffect from "./Component2/Hooks/FetchingData_useEffect/FetchingData_with_useEffect";
 // import DataFetch from "./Component2/Hooks/Custom_Hooks/DataFetch";
+// import React_Toastify from "./Component2/Display_Notification_By-React/React_Toastify";
+
 
 // 05 How to Send Data Parents to Child React.Js
 // const data = "I am from Parents";
@@ -55,6 +57,9 @@ export default function App2() {
 
       {/*  11 How to create and use Custom-Hooks in React.Js */}
       {/* <DataFetch /> */}
+
+      {/*  11 How to use React-Toastify-For-Show-Display-Notification in React.Js */}
+      {/* <React_Toastify /> */}
     </div>
   );
 }
