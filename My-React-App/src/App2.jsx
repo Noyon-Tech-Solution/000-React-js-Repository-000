@@ -9,7 +9,8 @@ import React from "react";
 // import Toggle from "./Component2/Toggle/Toggle";
 // import UseEffect from "./Component2/Hooks/UseEffect/UseEffect";
 // import FetchDataUseEffect from "./Component2/Hooks/FetchingData_useEffect/FetchDataUseEffect";
-import FetchingData_with_useEffect from "./Component2/Hooks/FetchingData_useEffect/FetchingData_with_useEffect";
+// import FetchingData_with_useEffect from "./Component2/Hooks/FetchingData_useEffect/FetchingData_with_useEffect";
+// import DataFetch from "./Component2/Hooks/Custom_Hooks/DataFetch";
 
 // 05 How to Send Data Parents to Child React.Js
 // const data = "I am from Parents";
@@ -51,6 +52,9 @@ export default function App2() {
       
       {/*  10 How to Fetching Data on useEffect Part-2 in React.Js */}
       {/* <FetchingData_with_useEffect /> */}
+
+      {/*  11 How to create and use Custom-Hooks in React.Js */}
+      {/* <DataFetch /> */}
     </div>
   );
 }
