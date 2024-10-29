@@ -1,7 +1,7 @@
-// import React from "react";
-// import "./CSS/index.css";
+import React from "react";
+// import "./App1.css"
 
-//! import Card from "./Component1/Card";
+//!  import Card from "./Component1/Cart_Component/Card";
 //! import Props from "./Component1/Props & Destructuring";
 
 //? import Data from "./Component1/Data Component/Data.json"
@@ -22,14 +22,14 @@
 //! import Conditional from "./Component1/Conditonal_Rendering/Conditional";
 //! import Event from "./Component1/Event_Handler/Event";
 
-// function App1() {
-//   return (
-//    <>
+function App1() {
+  return (
+   <>
       {/* 01 HTML and CSS in REACT JS */}
       {/* 02 How to Create a Component in React js */}
-      {/* <h1 className="headingStyle">Hello World</h1>
-      <Card />
-      <Card /> */}
+      {/* <h1 className="headingStyle">Hello World</h1> */}
+      {/* <Card /> */}
+      {/* <Card /> */}
 
       {/* 03 How to use Props and Destructuring in React js  */}
       {/* <Props titleText = "Call Father" descText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, error labore? Obcaecati corrupti accusantium expedita deserunt velit earum similique, voluptatum magnam vitae vero voluptate adipisci quidem corporis mollitia animi sed sint saepe nam, beatae minus, ipsum iusto cumque tenetur?" />
@@ -69,10 +69,9 @@
 
       {/* 12 Event Handler onChange & onClick in React Js Tutorial */}
       {/* <Event /> */}
-
       
-//    </>
-//   );
-// }
+   </>
+  );
+}
 
-// export default App1;
+export default App1;
