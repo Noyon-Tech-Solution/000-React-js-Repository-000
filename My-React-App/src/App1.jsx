@@ -1,23 +1,30 @@
 // import React from "react";
 // import "./CSS/index.css";
-// import Card from "./Component1/Card";
-// import Props from "./Component1/Props & Destructuring";
-// import Data from "./Component1/Data Component/Data.json"
-// import Maping from "./Component1/Maping Component/Maping Data"
-// import UniqueId from "./Component1/Unique_Id/Unique_list"
-// import UniqueId from "./Component1/Unique_Id/uuid";
-// import Nested from "./Component1/Nested_Maping/Nested";
-// import Function from "./Component1/Functional_Componant/Function";
-// import Class from "./Component1/Class_Component/Class";
-// import Icon from "./Component1/React_Icon/Icon";
-// import State from "./Component1/State_Component/State";
-// import main from "./Component1/Conditonal_Rendering/Conditional";
-// import Conditional from "./Component1/Conditonal_Rendering/Conditional";
-// import Event from "./Component1/Event_Handler/Event";
+
+//! import Card from "./Component1/Card";
+//! import Props from "./Component1/Props & Destructuring";
+
+//? import Data from "./Component1/Data Component/Data.json"
+//? import Maping from "./Component1/Maping Component/Maping Data"
+
+//! import UniqueId from "./Component1/Unique_Id/Unique_list"
+//! import UniqueId from "./Component1/Unique_Id/uuid";
+
+//? import Nested from "./Component1/Nested_Maping/Nested";
+//? import Function from "./Component1/Functional_Componant/Function";
+
+//! import Class from "./Component1/Class_Component/Class";
+//! import Icon from "./Component1/React_Icon/Icon";
+
+//? import State from "./Component1/State_Component/State";
+//? import main from "./Component1/Conditonal_Rendering/Conditional";
+
+//! import Conditional from "./Component1/Conditonal_Rendering/Conditional";
+//! import Event from "./Component1/Event_Handler/Event";
 
 // function App1() {
 //   return (
-//     <>
+//    <>
       {/* 01 HTML and CSS in REACT JS */}
       {/* 02 How to Create a Component in React js */}
       {/* <h1 className="headingStyle">Hello World</h1>
@@ -64,7 +71,7 @@
       {/* <Event /> */}
 
       
-//     </>
+//    </>
 //   );
 // }
 

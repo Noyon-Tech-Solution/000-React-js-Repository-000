@@ -34,4 +34,4 @@ const Toggle = () => {
 
 export default Toggle;
 
-{/* 07 How to use Toggle in React.Js */}
+{/* 05 How to use Toggle in React.Js */}

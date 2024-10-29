@@ -16,4 +16,4 @@ export default function Event_Bubbling() {
   )
 }
 
-{/* 03 How to use Event Bubbling / Stop Propagation in React.Js */}
+{/* 01 How to use Event Bubbling / Stop Propagation in React.Js */}

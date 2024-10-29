@@ -96,6 +96,4 @@ export default function From() {
   );
 }
 
-{
-  /* 04 How to Access of From Value in React.Js */
-}
+// 02 How to Access of From Value in React.Js
