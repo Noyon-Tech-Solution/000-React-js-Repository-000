@@ -12,7 +12,8 @@ import React from "react";
 // import FetchingData_with_useEffect from "./Component2/Hooks/FetchingData_useEffect/FetchingData_with_useEffect";
 // import DataFetch from "./Component2/Hooks/Custom_Hooks/DataFetch";
 // import React_Toastify from "./Component2/Display_Notification_By-React/React_Toastify";
-import UseRef from "./Component2/Hooks/UseRef/UseRef";
+// import UseRef from "./Component2/Hooks/UseRef/UseRef";
+// import Comp1 from './Component2/Prop_Drilling/Comp1'
 
 
 // 05 How to Send Data Parents to Child React.Js
@@ -64,6 +65,9 @@ export default function App2() {
 
       {/* 12 How to use useRef() Hooks on React js */}
       {/* <UseRef /> */}
+
+      {/* 13 How to use Prop_Drilling in React Js */}
+      <Comp1 />
     </div>
   );
 }

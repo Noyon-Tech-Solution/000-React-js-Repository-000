@@ -14,5 +14,5 @@ const Comp1 = () => {
 
 export default Comp1
 
-// 02 Prop_Drilling use na kora ter poriborta useContext use korta hoba.
-// 01 How to use Prop_Drilling in React Js.
+// 14 Prop_Drilling use na kora ter poriborta useContext use korta hoba.
+// 13 How to use Prop_Drilling in React Js.
