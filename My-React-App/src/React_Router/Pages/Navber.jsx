@@ -1,55 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import './Style.css'
 
 
 const Navber = () => {
   return (
-    <nav
-      style={{
-        backgroundColor: "black",
-        height: "10vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        fontFamily:"sans-serif"
-      }}
-    >
-      <NavLink
-        to="/"
-        style={{
-          margin: "20px",
-          textAlign: "center",
-          textDecoration: "none",
-          fontSize: "1.3rem",
-          color: "white",
-        }}
-      >
-        Home
-      </NavLink>
-      <NavLink
-        to="/blog"
-        style={{
-          margin: "20px",
-          textAlign: "center",
-          textDecoration: "none",
-          fontSize: "1.3rem",
-          color: "white",
-        }}
-      >
-        Blog
-      </NavLink>
-      <NavLink
-        to="/contact"
-        style={{
-          margin: "20px",
-          textAlign: "center",
-          textDecoration: "none",
-          fontSize: "1.3rem",
-          color: "white",
-        }}
-      >
-        Contact
-      </NavLink>
+    <nav className="navber">
+      <NavLink className="navlink" to="/">Home</NavLink>
+      <NavLink className="navlink" to="/blogs">Blogs</NavLink>
+      <NavLink className="navlink" to="/contact"> Contact</NavLink>
     </nav>
   );
 };

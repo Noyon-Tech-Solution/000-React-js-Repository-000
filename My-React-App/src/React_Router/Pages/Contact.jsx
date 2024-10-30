@@ -4,9 +4,17 @@ import { useNavigate } from 'react-router-dom'
 const Contact = () => {
   const Navigation = useNavigate()
   return (
-    <div>
+    <div className='from_div'>
       <h1>Contact Page</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi quis corporis iure doloremque, tempore numquam quod earum quia perferendis esse neque eum! Porro, provident laborum corporis voluptatem assumenda cum modi dignissimos mollitia aliquid, in totam facilis vero? Corporis aliquam harum ut qui beatae, asperiores ipsam est quas recusandae quod eos pariatur eius atque debitis minima, rem impedit consequatur praesentium quidem illum cumque commodi error! Id numquam nisi earum dolore porro dicta quod alias consequatur fugit? Minus voluptate quia excepturi! Vitae, voluptas in qui labore rem cupiditate amet veniam. Voluptas minima dolorem delectus voluptate aspernatur ratione rerum vero asperiores fugiat animi.</p>
+      <form action="#">
+        <label htmlFor="name"><p>Name</p></label><br />
+        <input type="text" name="name" id="name" placeholder='Enter Your Name' required/><br />
+        <label htmlFor="email"><p>Email</p></label><br />
+        <input type="text" name="email" id="email" placeholder='Enter Your Email' required/><br />
+        <label htmlFor="password"><p>Password</p></label><br />
+        <input type="text" name="password" id="password" placeholder='Enter Your Password' required /><br />
+        <button type='submit'>Sign Up</button>
+      </form>
       <button onClick={()=>{Navigation("/")}}>Back To Home Page</button>
     </div>
   )
