@@ -1,10 +1,14 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 const Contact = () => {
   const Navigation = useNavigate()
   return (
     <div className='from_div'>
+      <Helmet>
+        <title>Contact Page</title>
+      </Helmet>
       <h1>Contact Page</h1>
       <form action="#">
         <label htmlFor="name"><p>Name</p></label><br />

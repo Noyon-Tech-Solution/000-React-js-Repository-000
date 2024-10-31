@@ -1,8 +1,12 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <title>Home Page</title>
+      </Helmet>
       <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nostrum

@@ -1,0 +1,15 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Shahadat Hosen",
+        "email": "shahadathosen8987@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "Noyon",
+        "email": "noyontechsolution@gmail.com"
+      }
+    ]
+  }
+  

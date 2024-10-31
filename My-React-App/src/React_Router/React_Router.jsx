@@ -6,7 +6,7 @@ import Home from "./Pages/Home";
 import Blogs from "./Pages/Blogs";
 import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
-import Error from "./Pages/Error";
+// import Error from "./Pages/Error";
 import Navber from "./Pages/Navber";
 import User from "./Pages/User";
 
@@ -19,7 +19,7 @@ const React_Router = () => {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/:title" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Error />} />
+        {/* <Route path="*" element={<Error />} /> */}
         <Route path="/user" element={<User />}/>
       </Routes>
     </BrowserRouter>

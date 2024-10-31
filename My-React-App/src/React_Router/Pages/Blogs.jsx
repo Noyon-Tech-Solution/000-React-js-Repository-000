@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { blogsData } from "./Data";
+import { Helmet } from "react-helmet";
 
 //! Daynamic Routing using Parems Start !//
 
@@ -19,6 +20,9 @@ const Blogs = () => {
 
   return (
     <div className="blog_page">
+      <Helmet>
+        <title>Blogs Page</title>
+      </Helmet>
       <h1>Blogs Page</h1>
       <section>
         {blogs.map((blogs) => {
