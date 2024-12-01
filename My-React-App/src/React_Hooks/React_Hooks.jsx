@@ -10,8 +10,11 @@ import React from "react";
 //! import Custom_Hooks from "./Custom_Hooks/Custom_Hooks";
 //! import UseRef from "./UseRef_Hooks/UseRef";
 
-import UseReducer from "./UseReducer_Hooks/UseReducer";
-// import ComplexReducer from "./UseReducer_Hooks/ComplexReducer";
+//? import UseReducer from "./UseReducer_Hooks/UseReducer";
+//? import ComplexReducer from "./UseReducer_Hooks/ComplexReducer";
+
+import Parents from "./UseContext_Hooks/Parents";
+
 
 export default function App2() {
   return (
@@ -38,8 +41,11 @@ export default function App2() {
       {/* <UseRef /> */}
 
       {/* 08 How to use useReducer() Hooks on React js */}
-      <UseReducer />
+      {/* <UseReducer /> */}
       {/* <ComplexReducer /> */}
+
+      {/* 09 How to use useContext() Hooks on React js */}
+      <Parents />
 
     </div>
   );
